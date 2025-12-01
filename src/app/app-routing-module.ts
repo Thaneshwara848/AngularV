@@ -10,6 +10,7 @@ import { Nonveg } from './nonveg/nonveg';
 import { Desert } from './desert/desert';
 import { Restorent } from './restorent/restorent';
 import { Databind } from './databind/databind';
+import { Directivesdemo } from './directivesdemo/directivesdemo';
 
 const routes: Routes = [
   {path:'home',component:Home},
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path:'desert',component:Desert},
   {path:'restorent',component:Restorent},
   {path:'databind',component:Databind} ,
+  {path:'dir',component:Directivesdemo},
 
 
   // this 2 must be alwasy last -- wild card routing ...!

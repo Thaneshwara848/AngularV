@@ -13,6 +13,8 @@ import { Nonveg } from './nonveg/nonveg';
 import { Desert } from './desert/desert';
 import { Restorent } from './restorent/restorent';
 import { Databind } from './databind/databind';
+import { FormsModule } from '@angular/forms';
+import { Directivesdemo } from './directivesdemo/directivesdemo';
 
 @NgModule({
   declarations: [
@@ -26,11 +28,13 @@ import { Databind } from './databind/databind';
     Nonveg,
     Desert,
     Restorent,
-    Databind
+    Databind,
+    Directivesdemo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     provideBrowserGlobalErrorListeners()

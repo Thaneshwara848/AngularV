@@ -1,1 +1,32 @@
 <p>databind works!</p>
+{{company}} Corporation is an American information technology services company,
+{{company}} acquired technology consulting company Insource for $7.3 million.
+{{company}} acquired , {{company}} acquired TradeTech Consulting Scandinavia AB
+{{company}} acquired BRIGHT
+<hr>
+<input type="submit" (click)="abc()">
+<hr>
+<p >My Name is  : {{myname}}</p>
+<input type="text" #uname [(ngModel)]="myname"> 
+<input type="submit" (click)="xyz(uname.value)">
+<hr>
+<div>
+    Priciple : <input type="text" #p><br>
+    Rate of Int :<input type="text" #r value={{roi}} disabled> 
+    <select (change)="loanType($event)">
+        <option>Loan</option>
+        <option value="car">Car</option>
+        <option value="home">Home</option>
+        <option value="personal">Personal</option>
+    </select>
+    <br>
+    Time :<input type="text" #t> <br>
+
+    TOTAL :<input type="text" value={{total}}><br>
+    EMI :<input type="text" value={{emi}}><br> <br>
+
+    <input type="submit"  value="CACULATE" 
+    (click)="cal(p.value,r.value,t.value)" [disabled]="abcd"> 
+
+</div>
+1: 10 to 2: 00 break 
