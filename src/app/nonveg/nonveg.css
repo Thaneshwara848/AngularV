@@ -1,0 +1,15 @@
+.food-card {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .food-card img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        h2 {
+            margin: 40px 0 20px 0;
+            font-weight: 700;
+        }
