@@ -13,6 +13,7 @@ import { Databind } from './databind/databind';
 import { Directivesdemo } from './directivesdemo/directivesdemo';
 import { Pipedemo } from './pipedemo/pipedemo';
 import { Formsdemo } from './formsdemo/formsdemo';
+import { ServiceDemo } from './service-demo/service-demo';
 
 const routes: Routes = [
   {path:'home',component:Home},
@@ -28,6 +29,7 @@ const routes: Routes = [
   {path:'dir',component:Directivesdemo},
   {path:'pipedemo',component:Pipedemo},
   {path:'forms',component:Formsdemo},
+  {path:'serv',component:ServiceDemo},
 
 
   // this 2 must be alwasy last -- wild card routing ...!

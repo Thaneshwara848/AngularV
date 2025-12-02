@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Templetdrivenform {
 
+  myInfo(userForm:any){
+    console.log(userForm)
+  }
 }

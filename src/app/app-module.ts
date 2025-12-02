@@ -13,7 +13,7 @@ import { Nonveg } from './nonveg/nonveg';
 import { Desert } from './desert/desert';
 import { Restorent } from './restorent/restorent';
 import { Databind } from './databind/databind';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Directivesdemo } from './directivesdemo/directivesdemo';
 import { Pipedemo } from './pipedemo/pipedemo';
 import { SqrPipe } from './sqr-pipe';
@@ -21,6 +21,10 @@ import { CubePipe } from './cube-pipe';
 import { Formsdemo } from './formsdemo/formsdemo';
 import { Templetdrivenform } from './templetdrivenform/templetdrivenform';
 import { Reactivedrivenform } from './reactivedrivenform/reactivedrivenform';
+import { A } from './a/a';
+import { B } from './b/b';
+import { ServiceDemo } from './service-demo/service-demo';
+import { C } from './c/c';
 
 @NgModule({
   declarations: [
@@ -41,12 +45,17 @@ import { Reactivedrivenform } from './reactivedrivenform/reactivedrivenform';
     CubePipe,
     Formsdemo,
     Templetdrivenform,
-    Reactivedrivenform
+    Reactivedrivenform,
+    A,
+    B,
+    ServiceDemo,
+    C
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideBrowserGlobalErrorListeners()
