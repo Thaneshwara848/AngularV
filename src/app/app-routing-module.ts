@@ -11,6 +11,8 @@ import { Desert } from './desert/desert';
 import { Restorent } from './restorent/restorent';
 import { Databind } from './databind/databind';
 import { Directivesdemo } from './directivesdemo/directivesdemo';
+import { Pipedemo } from './pipedemo/pipedemo';
+import { Formsdemo } from './formsdemo/formsdemo';
 
 const routes: Routes = [
   {path:'home',component:Home},
@@ -24,6 +26,8 @@ const routes: Routes = [
   {path:'restorent',component:Restorent},
   {path:'databind',component:Databind} ,
   {path:'dir',component:Directivesdemo},
+  {path:'pipedemo',component:Pipedemo},
+  {path:'forms',component:Formsdemo},
 
 
   // this 2 must be alwasy last -- wild card routing ...!

@@ -15,6 +15,12 @@ import { Restorent } from './restorent/restorent';
 import { Databind } from './databind/databind';
 import { FormsModule } from '@angular/forms';
 import { Directivesdemo } from './directivesdemo/directivesdemo';
+import { Pipedemo } from './pipedemo/pipedemo';
+import { SqrPipe } from './sqr-pipe';
+import { CubePipe } from './cube-pipe';
+import { Formsdemo } from './formsdemo/formsdemo';
+import { Templetdrivenform } from './templetdrivenform/templetdrivenform';
+import { Reactivedrivenform } from './reactivedrivenform/reactivedrivenform';
 
 @NgModule({
   declarations: [
@@ -29,7 +35,13 @@ import { Directivesdemo } from './directivesdemo/directivesdemo';
     Desert,
     Restorent,
     Databind,
-    Directivesdemo
+    Directivesdemo,
+    Pipedemo,
+    SqrPipe,
+    CubePipe,
+    Formsdemo,
+    Templetdrivenform,
+    Reactivedrivenform
   ],
   imports: [
     BrowserModule,
