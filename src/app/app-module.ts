@@ -25,6 +25,10 @@ import { A } from './a/a';
 import { B } from './b/b';
 import { ServiceDemo } from './service-demo/service-demo';
 import { C } from './c/c';
+import { Chatapp } from './chatapp/chatapp';
+import { Harish } from './harish/harish';
+import { Vikas } from './vikas/vikas';
+import { Ibramhim } from './ibramhim/ibramhim';
 
 @NgModule({
   declarations: [
@@ -49,7 +53,11 @@ import { C } from './c/c';
     A,
     B,
     ServiceDemo,
-    C
+    C,
+    Chatapp,
+    Harish,
+    Vikas,
+    Ibramhim
   ],
   imports: [
     BrowserModule,

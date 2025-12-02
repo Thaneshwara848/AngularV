@@ -14,6 +14,7 @@ import { Directivesdemo } from './directivesdemo/directivesdemo';
 import { Pipedemo } from './pipedemo/pipedemo';
 import { Formsdemo } from './formsdemo/formsdemo';
 import { ServiceDemo } from './service-demo/service-demo';
+import { Chatapp } from './chatapp/chatapp';
 
 const routes: Routes = [
   {path:'home',component:Home},
@@ -30,6 +31,7 @@ const routes: Routes = [
   {path:'pipedemo',component:Pipedemo},
   {path:'forms',component:Formsdemo},
   {path:'serv',component:ServiceDemo},
+  {path:'chat',component:Chatapp},
 
 
   // this 2 must be alwasy last -- wild card routing ...!

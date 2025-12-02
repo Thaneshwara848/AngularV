@@ -1,0 +1,5 @@
+<input type="text" #vmsg>
+<input type="submit" (click)="sendmessage(vmsg.value)" value="Ibrahim">
+<p *ngFor="let msg of mymsg">
+    {{msg}}
+</p>
